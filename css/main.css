@@ -1,153 +1,34 @@
 /* W5HGT Website */
 
-@import url('https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css');
-@import url("https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap');
 
-/*------------------------BOOTSTRAP JUMBOTRON STYLING-------------------*/
-
-/*Edited jumbotron image and set the bottom margin to 2px*/
-.jumbotron {
-  background-color: rgba(0, 0, 0, 0);
-  background-repeat: repeat;
-  background-size: auto;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-.shade {
-  width: 110%;
-  height: 115%;
-  background: rgba(100,100,100,0.25);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.jumbotron .container {
-  position: sticky;
-  top: 80%;
-  font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.container h3 {
-  margin-top: 10px;
-}
-
-.container h1, .container h4 {
-  color: #000000;
-  font-family: 'JetBrains Mono ExtraBold', 'IBM Plex Sans', sans-serif;
-}
-
-.jumbotron h1 {
-  color: black;
-  font-size: calc(60pt + .75vw);  
-  font-weight: bold;
-  font-family: 'JetBrains Mono ExtraBold', 'IBM Plex Sans', sans-serif;
-  /* text-shadow: 0px 0px 10px #191c1d; */
-  /* margin-left: 2.5%;
-  margin-right: 2.5%; */
-}
-
-.jumbotron p {
-  font-size: calc(14pt + .5vw);
-  color: black;
-}
-
-.ltsec-logo {
-  object-fit: contain;
-  max-width: 65%;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#header-tagline-desktop {
-  padding-top: 5%;
-  object-fit: contain;
-  max-width: 100%;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#header-tagline-mobile {
-  display: none;
-}
-
-@media (max-width: 992px) {
-  .ltsec-logo {
-    display: flex;
-    max-width: 90%;
-    margin-top: 5%;
-    margin-bottom: -2%;
-  }
-  #header-tagline-desktop {
-    display: none;
-  }
-  #header-tagline-mobile {
-    display: flex;
-    font-size: calc(30pt + .75vw);
-    padding-top: 2%;
-    padding-left: 2%;
-  }
-}
-
-/*------------------------END OF JUMBOTRON-------------------*/
-
-
-/*------------------------BOOTSTRAP PARALLAX STYLING-------------------*/
-
-/*parallax and parallax-2 (for some reason, parallax-1 wouldn't work), are scrolling
-  images with a cool animation, I think it makes websites stand out as more professional
-  but is totally subject to change*/
-.parallax {
-    /* The image used */
-    /* background-image: url('../../img/cyberstorm/5.jpg');
-
-    /* Set a specific height */
-    min-height: 100px; 
-
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  */
-}
-
-/*------------------------END OF PARALLAX IMAGES-------------------*/
-
-
 /*--------------------------- navbar styling ----------------------*/
-.nav {
-  position: fixed;
-  background-color: #00000060;
-  /*border-bottom: 1px solid #1b212c;*/
-  width: 100%;
-  height: calc(35px + .4vw);
-  top: 0;
-  opacity: 1.0;
-  z-index: 10000000;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+nav {
+	display: block;
+	position: fixed;
+	background-color: #666666F0;
+	/*border-bottom: 1px solid #1b212c;*/
+	width: 100%;
+	height: calc(35px + .4vw);
+	top: 0;
+	z-index: 10000000;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.10);
+	font-family: 'JetBrains Mono ExtraBold', 'IBM Plex Sans', sans-serif;
 }
 
-.left {
-	float: right !important;
-}
-
-.nav a {
-  float: left;
-  color: #c4c4c4;
+nav a {
+  color: #EBEBEB;
   font-size: calc(12px + .25vw);
   font-weight: bolder;
   padding: 8px 10px;
   text-transform: uppercase;
-  font-family: 'JetBrains Mono ExtraBold', 'IBM Plex Sans', sans-serif;
+}
+nav a.right {
+  float: right;
 }
 
-.nav a:hover {
+nav a:hover {
     background: #30303075;
 }
 
@@ -155,7 +36,7 @@
   display: inline;
 }
 
-.nav .icon {
+nav .icon {
   height: 15px;
   width: 15px;
   display: none;
@@ -220,6 +101,7 @@
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 p {
@@ -227,10 +109,8 @@ p {
 }
 
 body {
-  /* background-color: #000000; */
-  /* background-image:url('../../img/gamerwallpaper.jpg');
-  background-repeat: repeat; */
-  background-color: #ebebeb;
+	margin: 0px;
+	background-color: #ebebeb;
 }
 
 .information-panel {
