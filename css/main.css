@@ -105,11 +105,13 @@ nav .icon {
 }
 
 p {
-  overflow-wrap: break-word;
+	overflow-wrap: break-word;
+	font-family: 'JetBrains Mono', 'IBM Plex Sans', sans-serif;
 }
 
 body {
-	margin: 0px;
+	margin-top: 50px;
+	margin-left: 0px;
 	background-color: #ebebeb;
 }
 
@@ -142,7 +144,7 @@ body {
 .main-w5hgt-container {
   /*background-color: #14181f;*/
   color: #000000;
-  /* padding-top: 1%; */
+  padding-bottom: 50px;
   position: relative;
   height: 400px;
   /* border: 2px solid #006100; */
@@ -264,9 +266,12 @@ body {
 }
 
 h1 {
-  padding-top: 10px;
+	padding-top: 10px;
+	font-family: 'JetBrains Mono', 'IBM Plex Sans', sans-serif;
 }
-
+h2 {
+	font-family: 'JetBrains Mono', 'IBM Plex Sans', sans-serif;
+}
 .footerText {
   background-color: #5e5e5e;
 }
