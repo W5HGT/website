@@ -93,13 +93,6 @@ nav .icon {
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
 
-h1 {
-
-}
-
-h2 {
-}
-
 h3 {
 	font-size: 18px;
 }
@@ -107,7 +100,7 @@ h3 {
 p {
 	font-size: 12pt;
 	overflow-wrap: break-word;
-	font-family: 'JetBrains Mono', 'IBM Plex Sans', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
@@ -134,7 +127,6 @@ body {
 .main-w5hgt-container h3 {
 	font-weight: lighter;
 }
-
 .main-w5hgt-container a {
 	color: #4973d4;
 	text-decoration: none;
