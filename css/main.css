@@ -101,6 +101,7 @@ p {
 	font-size: 12pt;
 	overflow-wrap: break-word;
 	font-family: 'IBM Plex Sans', sans-serif;
+	margin: 20pt;
 }
 
 body {
@@ -142,14 +143,15 @@ body {
   text-decoration-line: none;
 }
 
-.image img {
-  max-width: 100px;
-  max-height: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  /*height: 100%;*/
+.image {
+	object-fit: contain;
+	max-width: 500px;
+	max-height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	/*height: 100%;*/
 }
 
 #wiley-photo {
@@ -188,6 +190,9 @@ body {
 		object-fit: contain;
 		height: 400px;
 		width: auto;
+		float: right;
+	}
+	.image {
 		float: right;
 	}
 }
