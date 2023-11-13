@@ -197,4 +197,8 @@ body {
   padding-bottom: 5px;
 }
 
+span.kernfix {
+	width: 5px;
+	display: inline-block
+}
 /*------------------------END OF ELEMENT STYLING-------------------*/
