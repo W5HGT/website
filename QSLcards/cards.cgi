@@ -18,7 +18,13 @@ my $page = <<EOH;
 	<nav>
 		<a href="https://orgs.latech.edu/amateurradio/index.html"> W5HGT </a>
 		<a class="right" href = "https://orgs.latech.edu/amateurradio/officers.html"> People </a>
-		<a class="right" href = "https://orgs.latech.edu/amateurradio/QSLcards/cards.cgi"> QSL<span class="kernfix"></span>Cards </a>
+		<a class="right" href = "https://orgs.latech.edu/amateurradio/QSLcards/cards.html"> QSL<span style="width:5px;display:inline-block"></span>Cards </a>
+		<a class="right" href = "https://orgs.latech.edu/amateurradio/history.hmtl"> History </a>
+		<a class="right" href = "https://orgs.latech.edu/amateurradio/station.html"> Station </a>
+	</nav>
+	<nav>
+		<a href="https://orgs.latech.edu/amateurradio/index.html"> W5HGT </a>
+		<a class="right" href = "https://orgs.latech.edu/amateurradio/officers.html"> People </a>
 	</nav>
 	<div style="
 	text-align: justify;
